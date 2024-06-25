@@ -27,7 +27,7 @@ const Education = () => {
                 
             </div> */}
              <div className="text-center">
-                <h1 className="text-3xl font-extrabold">Education</h1>
+                <h1 className="text-3xl font-extrabold text-slate-700">Education</h1>
             </div>
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-10 text-slate-700">
   <li data-aos="fade-down-right">
@@ -44,8 +44,8 @@ const Education = () => {
       </svg>
     </div>
     <div className="timeline-start mb-10 md:text-end">
-      <time className="font-extrabold">2018-2011</time>
-      <div className="text-xl font-bold text-pink-500">Computer Science Engineering</div>
+      <time className="font-extrabold">2018-2021</time>
+      <div className="text-xl font-bold text-pink-500">Computer Science And Engineering</div>
       <p className='text-lg  font-extrabold'>Leading University</p>
       <p className='text-lg font-extrabold'>Sylhet,Bangladesh</p>
      
