@@ -21,51 +21,6 @@ const Contact = () => {
               <div>
               
                 <div className="divider divider-secondary text-3xl font-extrabold text-slate-700">Contact Me</div>
-
-                {/* <div className="flex">
-
-                    <div className="w-1/2 relative">
-
-                        <div className="space-y-5 bg-blue-300 py-5 px-10 w-2/3 h-40">
-                            <div className="flex items-center gap-2">
-                                <span className="text-3xl"><MdOutlineMail /></span>
-                                <span className="text-xl font-bold text-slate-700">jahedmunna612@gmail.com</span>
-
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <span className="text-3xl"><FaPhoneFlip /></span>
-                                <span className="text-xl font-bold text-slate-700">+8801795500756</span>
-
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <span className="text-3xl"><FaHouse /></span>
-                                <span className="text-xl font-bold text-slate-700">Sylhet,Bangladesh</span>
-
-                            </div>
-                           
-
-                        </div>
-                        <div className="space-y-5 bg-blue-500 py-5 px-10 w-2/3 h-40 absolute">
-
-</div>
-                       
-
-                        <div className="w-1/2">
-
-                        </div>
-
-
-
-
-                    </div>
-
-
-
-
-
-
-
-                </div> */}
                 <Toaster></Toaster>
                 <section className="py-6">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:items-center md:divide-x">
@@ -116,7 +71,7 @@ const Contact = () => {
                 </div>
 
                 <div className="text-center pb-5 pt-5">
-                    <h1 className="text-3xl font-extrabold text-slate-700">"Thank You"</h1>
+                    <h1 className="text-3xl font-extrabold text-slate-700">Thank You</h1>
                 </div>
 
             </div>

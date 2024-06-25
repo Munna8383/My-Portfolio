@@ -23,7 +23,7 @@ const Projects = () => {
                     <h1 className="text-xl font-bold text-slate-700">Made With: <span className="text-pink-500">HTML   CSS   Javascript   React   NodeJS   ExpreesJS   MongoDB</span></h1>
                     <h1 className="font-bold text-slate-700">Feature: <span className="font-normal">This website is an apartment rental platform created using React, Express, NodeJS,
 and MongoDB. It features a dashboard system customized for users, members, and administrators,
-with varying views and access levels depending on the user's role. A payment method is also
+with varying views and access levels depending on the users role. A payment method is also
 integrated into the website. Additionally, JWT (JSON Web Token) authentication is implemented
 using Local Storage.</span></h1>
    
