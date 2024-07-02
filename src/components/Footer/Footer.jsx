@@ -10,7 +10,7 @@ const Footer = () => {
 <div className="divider divider-secondary"></div>
 
 <div className="space-y-5">
-<div className="text-center text-3xl font-bold text-slate-700">
+<div className="text-center text-2xl md:text-3xl font-bold text-slate-700">
     <h1>Connect in Social media</h1>
 </div>
 <div className="flex justify-center gap-5">
@@ -19,7 +19,7 @@ const Footer = () => {
           <a target="_blank" href="https://www.facebook.com/jahed.munna.75?mibextid=LQQJ4d" className="text-3xl text-blue-700"><FaFacebook /></a>
                 </div>
                 <div>
-                <p className="text-lg font-semibold text-center">Copyright © ${new Date().getFullYear()} - All right reserved</p>
+                <p className="text-lg font-semibold text-center text-slate-700">Copyright © ${new Date().getFullYear()} - All right reserved</p>
                 </div>
 </div>
 
