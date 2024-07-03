@@ -8,7 +8,7 @@ const About = () => {
   
     
     return (
-        <div className="mt-10 container mx-auto px-5 md:px-10">
+        <div id="about" className="mt-10 container mx-auto px-5 md:px-10">
       <div className="flex flex-col md:flex-row items-center md:justify-between space-y-5">
      <div data-aos="fade-up" className="w-full  md:w-1/2 text-center md:text-left space-y-4 text-slate-700">
      <h1 className="text-xl font-semibold text-slate-700">Hello ! I am a</h1>

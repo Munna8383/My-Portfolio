@@ -19,7 +19,7 @@ const Footer = () => {
           <a target="_blank" href="https://www.facebook.com/jahed.munna.75?mibextid=LQQJ4d" className="text-3xl text-blue-700"><FaFacebook /></a>
                 </div>
                 <div>
-                <p className="text-lg font-semibold text-center text-slate-700">Copyright © ${new Date().getFullYear()} - All right reserved</p>
+                <p className="text-lg font-semibold text-center text-slate-700">Copyright © {new Date().getFullYear()} - All right reserved</p>
                 </div>
 </div>
 

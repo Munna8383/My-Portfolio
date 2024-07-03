@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Education = () => {
     return (
-        <div className="mt-20 container mx-auto px-10 overflow-x-hidden">
+        <div id='education' className="mt-20 container mx-auto px-10 overflow-x-hidden">
                  {/* <div className="text-center">
                 <h1 className="text-3xl font-extrabold">Education</h1>
             </div>

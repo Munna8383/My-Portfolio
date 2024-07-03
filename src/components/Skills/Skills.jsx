@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const Skills = () => {
     return (
-        <div className="mt-20 container mx-auto px-10">
+        <div id="skills" className="mt-20 container mx-auto px-10">
             <div className="text-center">
                 <h1 className="text-3xl font-extrabold text-slate-700">Skills</h1>
             </div>

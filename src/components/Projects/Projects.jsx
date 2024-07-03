@@ -6,7 +6,7 @@ import journey from "../../../public/images/Screenshot 2024-07-02 211027.png"
 
 const Projects = () => {
     return (
-        <div className="mt-20 container mx-auto px-10">
+        <div id="projects" className="mt-20 container mx-auto px-10">
              <div className="text-center">
                 <h1 className="text-3xl font-extrabold text-slate-700">Projects</h1>
             </div>
