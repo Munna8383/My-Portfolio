@@ -42,7 +42,7 @@ const Navbar = () => {
             <li onClick={()=>handleSkills("contact")}>Contact</li>
       </ul> */}
     </div>
-          <a className="font-extrabold text-xl lg:text-2xl text-slate-700">Jahed Ahmed Munna</a>
+          <a className="font-extrabold text-base sm:lg lg:text-2xl text-slate-700">Jahed Ahmed Munna</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-slate-700 space-x-4 text-lg">
