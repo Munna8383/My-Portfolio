@@ -10,7 +10,16 @@ const Contact = () => {
 
     const handleSubmit =e=>{
         e.preventDefault()
-       
+
+		const name = e.target.name.value
+        const email = e.target.email.value 
+		const message = e.target.message.value 
+
+		
+		if(!name || !email || !message){
+			return toast.error("Fill the form")
+		}
+
         toast.success("Message delivered")
         e.target.reset()
     }
@@ -45,15 +54,15 @@ const Contact = () => {
 		<form noValidate="" onSubmit={handleSubmit} className="flex flex-col py-6 space-y-6 md:py-2 md:px-6">
 			<label className="block">
 				<span className="mb-1 text-slate-700">Full name:</span>
-				<input type="text" placeholder="Leroy Jenkins" className="block px-2 py-2 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" />
+				<input name="name" type="text" placeholder="Leroy Jenkins" className="block px-2 py-2 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" />
 			</label>
 			<label className="block">
 				<span className="mb-1 text-slate-700">Email address:</span>
-				<input type="email" placeholder="leroy@jenkins.com" className="block px-2 py-2 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" />
+				<input name="email" type="email" placeholder="leroy@jenkins.com" className="block px-2 py-2 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" />
 			</label>
 			<label className="block">
 				<span className="mb-1 text-slate-700">Message:</span>
-				<textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"></textarea>
+				<textarea rows="3" name="message" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"></textarea>
 			</label>
 			<button type="submit" className="border-2 border-pink-500 px-4 py-2 text-pink-500">Message</button>
 		</form>
