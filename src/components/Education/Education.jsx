@@ -45,9 +45,9 @@ const Education = () => {
     </div>
     <div className="timeline-start mb-10 md:text-end">
       <time className="font-extrabold">2018-2021</time>
-      <div className="text-xl font-bold text-pink-500">Computer Science And Engineering</div>
-      <p className='text-lg  font-extrabold'>Leading University</p>
-      <p className='text-lg font-extrabold'>Sylhet,Bangladesh</p>
+      <div className="text-base sm:text-xl font-bold text-pink-500">Computer Science And Engineering</div>
+      <p className='text-sm sm:text-lg  font-extrabold'>Leading University</p>
+      <p className='text-sm sm:text-lg font-extrabold'>Sylhet,Bangladesh</p>
      
     </div>
     <hr />
@@ -68,9 +68,9 @@ const Education = () => {
     </div>
     <div className="timeline-end mb-10 h-20">
     <time className="font-extrabold">2017</time>
-      <div className="text-xl font-bold text-pink-500">Higher Secondary Certificate</div>
-      <p className='text-lg  font-extrabold'>Scholarshome</p>
-      <p className='text-lg font-extrabold'>Sylhet,Bangladesh</p>
+      <div className="text-base sm:text-xl font-bold text-pink-500">Higher Secondary Certificate</div>
+      <p className='text-sm sm:text-lg  font-extrabold'>Scholarshome</p>
+      <p className='text-sm sm:text-lg font-extrabold'>Sylhet,Bangladesh</p>
     </div>
     <hr />
   </li>
@@ -90,9 +90,9 @@ const Education = () => {
     </div>
     <div className="timeline-start mb-10 md:text-end ">
     <time className="font-extrabold">2015</time>
-      <div className="text-xl font-bold text-pink-500">Secondary School Certificate</div>
-      <p className='text-lg  font-extrabold'>Scholarshome</p>
-      <p className='text-lg font-extrabold'>Sylhet,Bangladesh</p>
+      <div className="text-base sm:text-xl font-bold text-pink-500">Secondary School Certificate</div>
+      <p className='text-sm sm:text-lg  font-extrabold'>Scholarshome</p>
+      <p className='text-sm sm:text-lg font-extrabold'>Sylhet,Bangladesh</p>
     </div>
     <hr />
   </li>

@@ -3,3 +3,16 @@
 @tailwind utilities;
 
 
+@keyframes scale-up-down {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+
+
+  .scaling-element {
+    animation: scale-up-down 3s linear infinite;
+  }

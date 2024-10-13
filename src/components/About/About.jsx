@@ -31,7 +31,7 @@ const About = () => {
      </div>
      </div>
      <div data-aos="fade-up" className="w-full md:w-1/2">
-     <Image  className="w-full object-cover hover:scale-110" src={image1} alt="picture"/>
+     <Image  className="w-full object-cover scaling-element" src={image1} alt="picture"/>
      </div>
       </div>
             

@@ -4,27 +4,52 @@ import { MdOutlineMail } from "react-icons/md";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { FaHouse } from "react-icons/fa6";
 import toast, { Toaster } from "react-hot-toast";
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+import ScrollToTop from "react-scroll-to-top";
+
 
 
 const Contact = () => {
+	const form = useRef();
+	
 
     const handleSubmit =e=>{
         e.preventDefault()
 
-		const name = e.target.name.value
-        const email = e.target.email.value 
+		const name = e.target.user_name.value
+        const email = e.target.user_email.value 
 		const message = e.target.message.value 
 
 		
-		if(!name || !email || !message){
-			return toast.error("Fill the form")
-		}
+		// if(!name || !email || !message){
+		// 	return toast.error("Fill the form")
+		// }
+
+
+		// emailjs
+		// .sendForm('service_wntx39g', 'template_0r5zf8c', form.current, {
+		//   publicKey: 'TCmdG9rRZnUSsLWqd',
+		// })
+		// .then(
+		//   () => {
+		// 	console.log('SUCCESS!');
+		//   },
+		//   (error) => {
+		// 	console.log('FAILED...', error.text);
+		//   },
+		// );
+
+		
+		  
 
         toast.success("Message delivered")
         e.target.reset()
     }
     return (
         <div id="contact" className="mt-20 container mx-auto px-10">
+		<div />
+      <ScrollToTop color="blue" width={32} smooth style={{display:"flex",justifyContent:"center",alignItems:"center"}} />
               <div>
               
                 <div className="text-center text-3xl font-extrabold text-slate-700">Contact Me</div>
@@ -51,14 +76,14 @@ const Contact = () => {
 				</p>
 			</div>
 		</div>
-		<form noValidate="" onSubmit={handleSubmit} className="flex flex-col py-6 space-y-6 md:py-2 md:px-6">
+		<form ref={form} noValidate="" onSubmit={handleSubmit} className="flex flex-col py-6 space-y-6 md:py-2 md:px-6">
 			<label className="block">
 				<span className="mb-1 text-slate-700">Full name:</span>
-				<input name="name" type="text" placeholder="Leroy Jenkins" className="block px-2 py-2 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" />
+				<input name="user_name" type="text" placeholder="Leroy Jenkins" className="block px-2 py-2 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" />
 			</label>
 			<label className="block">
 				<span className="mb-1 text-slate-700">Email address:</span>
-				<input name="email" type="email" placeholder="leroy@jenkins.com" className="block px-2 py-2 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" />
+				<input name="user_email" type="email" placeholder="leroy@jenkins.com" className="block px-2 py-2 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" />
 			</label>
 			<label className="block">
 				<span className="mb-1 text-slate-700">Message:</span>
